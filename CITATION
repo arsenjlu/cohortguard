@@ -1,0 +1,11 @@
+citHeader("To cite cohortguard in publications use:")
+
+bibentry(
+  bibtype = "Manual",
+  title = "cohortguard: label-free audit of transcriptomic signature transferability",
+  author = person("Yuxuan", "Li", email = "liyx1326@mails.jlu.edu.cn"),
+  year = "2026",
+  note = "R package version 0.2.0",
+  url = "https://github.com/arsenjlu/cohortguard",
+  textVersion = "Li, Y. (2026). cohortguard: label-free audit of transcriptomic signature transferability. R package version 0.2.0."
+)

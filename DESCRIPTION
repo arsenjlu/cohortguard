@@ -1,0 +1,16 @@
+Package: cohortguard
+Type: Package
+Title: Label-Free Audit of Transcriptomic Signature Transferability
+Version: 0.2.0
+Authors@R: person("Yuxuan", "Li", email = "liyx1326@mails.jlu.edu.cn", role = c("aut", "cre"))
+Description: Audits whether a transcriptomic classifier will transfer to a new
+    cohort before validation labels are available. Provides two drift measures
+    (kernel MMD and model-agreement drift), split-conformal prediction sets with
+    abstention, the AUC@coverage metric, and readers for GEO series-matrix and
+    platform annotation files.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.0)
+Imports: stats, utils
+Suggests: testthat
+RoxygenNote: 7.3.1
