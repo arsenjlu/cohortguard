@@ -1,0 +1,24 @@
+{
+  "title": "cohortguard: label-free audit of transcriptomic signature transferability",
+  "description": "R package auditing whether a transcriptomic classifier will transfer to a new cohort before validation labels are available. Computes kernel MMD drift, model-agreement drift, split-conformal coverage with abstention, and the drop between cross-validated and external performance across 16 public GEO cohort pairs.",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "mit",
+  "creators": [
+    {
+      "name": "Li, Yuxuan",
+      "affiliation": "Jilin University, Changchun, Jilin, China",
+      "email": "liyx1326@mails.jlu.edu.cn"
+    }
+  ],
+  "keywords": [
+    "transcriptomics",
+    "external validation",
+    "distribution shift",
+    "conformal prediction",
+    "model agreement",
+    "reproducibility"
+  ],
+  "related_identifiers": [],
+  "version": "0.2.0"
+}
