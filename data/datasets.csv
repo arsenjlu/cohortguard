@@ -1,0 +1,34 @@
+dataset_id,pair_id,role,platform,tissue,n_case,n_ctrl,group_field,case_re,ctrl_re,tissue_field,tissue_re,notes
+GSE96804,P1,train,GPL17586,glomeruli,41,20,source_name_ch1,diabetic,unaffected,,,DKD; control is adjacent-normal
+GSE30122,P1,test,GPL571,glomeruli,9,26,disease state,diabetic,control,tissue subregion,glomerul,DKD
+GSE30122,P1r,train,GPL571,glomeruli,9,26,disease state,diabetic,control,tissue subregion,glomerul,DKD reversed
+GSE96804,P1r,test,GPL17586,glomeruli,41,20,source_name_ch1,diabetic,unaffected,,,
+GSE31210,P2,train,GPL570,lung,226,20,tissue,tumor,normal,,,LUAD
+GSE68465,P2,test,GPL96,lung,443,19,disease_state,Adenocarcinoma,Normal,,,LUAD
+GSE14520,P3,train,GPL571,liver,22,19,tissue,Liver Tumor,Non-Tumor,,,HCC
+GSE76427,P3,test,GPL10558,liver,115,52,tissue,hepatocellular,non-tumor,,,HCC
+GSE76250,P4,train,GPL17586,breast,165,33,source_name_ch1,TNBC,normal,,,BRCA
+GSE42568,P4,test,GPL570,breast,104,17,tissue,cancer,normal,,,BRCA
+GSE39582,P5,train,GPL570,colorectum,566,19,source_name_ch1,Adenocarcinoma,non tumoral,,,CRC
+GSE9348,P5,test,GPL570,colorectum,70,12,source_name_ch1,tumor,mucosa,,,CRC
+GSE53757,P6,train,GPL570,kidney,72,72,tissue,carcinoma,normal,,,ccRCC
+GSE40435,P6,test,GPL10558,kidney,101,101,tissue type,clear cell,adjacent,,,ccRCC
+GSE16879,P7,train,GPL570,colon,121,12,disease,UC|CD,Control,tissue,Colon,IBD mucosa
+GSE3365,P7,test,GPL96,blood,85,42,subject disease,Colitis|Crohn,Normal,,,IBD peripheral blood
+GSE21942,P8,train,GPL570,blood,14,15,disease state,multiple sclerosis,healthy,,,MS
+GSE93272,P8,test,GPL570,blood,232,43,disease state,RA,healthy,,,RA (cross-disease)
+GSE17048,P9,train,GPL6947,blood,99,45,tissue,MS|RRMS|SPMS|PPMS,whole blood,,,MS whole blood
+GSE21942,P9,test,GPL570,blood,14,15,disease state,multiple sclerosis,healthy,,,MS
+GSE65391,P10,train,GPL10558,blood,924,72,disease state,SLE,Healthy,,,SLE whole blood
+GSE49454,P10,test,GPL10558,blood,157,20,group,^SLE$,Healthy,,,SLE whole blood
+GSE30153,P11,train,GPL570,blood,17,9,disease state,SLE,control,,,SLE
+GSE65391,P11,test,GPL10558,blood,924,72,disease state,SLE,Healthy,,,SLE
+GSE38713,P12,train,GPL570,colon,30,13,source_name_ch1,UC patient,non-inflammatory,,,UC colon
+GSE16879,P12,test,GPL570,colon,121,12,disease,UC|CD,Control,tissue,Colon,IBD colon
+GSE59071,P13,train,GPL6244,colon,97,11,disease,ulcerative colitis|crohn,^control$,,,UC colon
+GSE38713,P13,test,GPL570,colon,30,13,source_name_ch1,UC patient,non-inflammatory,,,UC colon
+GSE43696,P14,train,GPL6480,airway,88,20,disease state,Asthma,Control,,,asthma airway epithelium
+GSE63142,P14,test,GPL6480,blood,128,27,individual,asthmatic,control,,,asthma whole blood
+GSE15573,P15,train,GPL6102,blood,24,9,title,RA,Control,,,RA PBMC
+GSE93272,P15,test,GPL570,blood,232,43,disease state,RA,healthy,,,RA whole blood
+GSE30529,excluded,excluded,GPL571,tubules,10,12,disease state,diabetic,control,tissue subregion,tubul,subset of GSE30122
