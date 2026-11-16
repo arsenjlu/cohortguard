@@ -1,0 +1,30 @@
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+*.Rout
+
+# Raw and generated data (download raw GEO series yourself; see README)
+data/raw/
+data/processed/
+
+# Generated figures
+figures/
+
+# Logs and build artifacts
+*.log
+*.aux
+*.out
+*.pdf
+*.zip
+*.gz
+
+# Editors
+.vscode/
+.idea/
+.DS_Store
+
+# Local temp
+.tmp_lib/
