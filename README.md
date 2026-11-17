@@ -96,7 +96,9 @@ Across 16 cross-cohort transfers under one fixed pipeline, the drop from cross-v
 
 ## Citation
 
-Manuscript under review at *BMC Bioinformatics*. If you use this code, please cite the repository via its Zenodo DOI (minted at publication).
+Manuscript under review at *BMC Bioinformatics*. If you use this code, please cite the archived release:
+
+> Li Y. cohortguard: label-free audit of transcriptomic signature transferability. Zenodo; 2026. doi:10.5281/zenodo.24284477
 
 ## License
 
