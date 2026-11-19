@@ -4,7 +4,7 @@
 
 A signature is usually judged twice: by a cross-validated AUC in the cohort that produced it, and later by an external AUC if a second labelled cohort appears. Both numbers are retrospective. `cohortguard` measures the quantities that are available *before* the labels arrive — drift and model agreement — and reports how far each falls short of predicting the drop.
 
-This package accompanies the manuscript *"Cross-cohort transferability of transcriptomic signatures is poorly predicted by within-cohort performance and label-free drift scores under a fixed microarray pipeline."* It lets anyone recompute every number in that paper from public GEO series on a common scale.
+This package accompanies the manuscript "Within-cohort performance and label-free drift fail to predict cross-cohort transfer of transcriptomic signatures: a 16-transfer benchmark."
 
 ## What it computes
 
@@ -96,7 +96,7 @@ Across 16 cross-cohort transfers under one fixed pipeline, the drop from cross-v
 
 ## Citation
 
-Manuscript under review at *BMC Bioinformatics*. If you use this code, please cite the archived release:
+Manuscript under review at Scientific Reports. If you use this code, please cite the archived release:
 
 > Li Y. cohortguard: label-free audit of transcriptomic signature transferability. Zenodo; 2026. doi:10.5281/zenodo.24284477
 
